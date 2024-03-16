@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddProperty renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="add-property"
+  >
+    <form
+      class="add-property-form"
+    >
+      <label
+        for="title"
+      >
+        Property Title:
+        <br />
+        <br />
+        <input
+          id="title"
+          name="title"
+          placeholder="Blue Cottage"
+          value=""
+        />
+      </label>
+      <label
+        for="city"
+      >
+        City:
+        <br />
+        <br />
+        <select
+          id="city"
+          name="city"
+        >
+          <option
+            value="Manchester"
+          >
+            Manchester
+          </option>
+          <option
+            value="Leeds"
+          >
+            Leeds
+          </option>
+          <option
+            value="Birmingham"
+          >
+            Birmingham
+          </option>
+          <option
+            value="Oxford"
+          >
+            Oxford
+          </option>
+        </select>
+      </label>
+      <label
+        for="type"
+      >
+        Type:
+        <br />
+        <br />
+        <select
+          id="type"
+          name="type"
+        >
+          <option
+            value="Flat"
+          >
+            Flat
+          </option>
+          <option
+            value="Detached"
+          >
+            Detached
+          </option>
+          <option
+            value="Semi-Detached"
+          >
+            Semi-Detached
+          </option>
+          <option
+            value="Terraced"
+          >
+            Terraced
+          </option>
+          <option
+            value="End of Terrace"
+          >
+            End of Terrace
+          </option>
+          <option
+            value="Cottage"
+          >
+            Cottage
+          </option>
+          <option
+            value="Bungalow"
+          >
+            Bungalow
+          </option>
+        </select>
+      </label>
+      <label
+        for="bedrooms"
+      >
+        Bedrooms:
+        <br />
+        <br />
+        <input
+          id="bedrooms"
+          name="bedrooms"
+          placeholder="3"
+          type="number"
+          value=""
+        />
+      </label>
+      <label
+        for="bathrooms"
+      >
+        Bathrooms:
+        <br />
+        <br />
+        <input
+          id="bathrooms"
+          name="bathrooms"
+          placeholder="1"
+          type="number"
+          value=""
+        />
+      </label>
+      <label
+        for="price"
+      >
+        Price:
+        <br />
+        <br />
+        <input
+          id="price"
+          min="0"
+          name="price"
+          placeholder="250000"
+          step="500"
+          type="number"
+          value=""
+        />
+      </label>
+      <label
+        for="email"
+      >
+        Email:
+        <br />
+        <br />
+        <input
+          id="email"
+          name="email"
+          placeholder="john.smith@email.com"
+          type="text"
+          value=""
+        />
+      </label>
+      <button
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

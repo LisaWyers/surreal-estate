@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import AddProperty from "../components/AddProperty";
+import AddProperty from "../../components/AddProperty";
 
 describe("AddProperty", () => {
   it("renders correctly", () => {

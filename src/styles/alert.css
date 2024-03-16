@@ -1,0 +1,15 @@
+.alert {
+    padding: 0.5rem 0;
+  }
+  
+  .alert-error {
+    border: 2px solid red;
+    background-color: pink;
+    color: red;
+  }
+  
+  .alert-success {
+    border: 2px solid green;
+    background-color: lightgreen;
+    color: green;
+  }
