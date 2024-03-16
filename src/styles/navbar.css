@@ -1,0 +1,16 @@
+.navbar {
+  border-bottom: double;
+  background-color: grey;
+  display: flex;
+}
+
+.navbar-links {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links-item {
+  margin: 0;
+  padding: 10;
+  display: inline-block;
+}
