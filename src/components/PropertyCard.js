@@ -4,8 +4,6 @@ import { faBed, faBathtub } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import "../styles/property-card.css";
 
-// rafce gives React boilerplate
-
 const PropertyCard = ({
   title,
   type,

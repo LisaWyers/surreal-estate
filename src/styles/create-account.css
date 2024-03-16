@@ -1,0 +1,34 @@
+.sign-up {
+    width: 30%;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 2rem;
+    border: 3px solid darkgray;
+    text-align: center;
+  }
+  
+  .sign-up-form {
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sign-up-form label {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0;
+    width: 100%;
+    align-self: center;
+  }
+  
+  .sign-up-form button {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 40%;
+    height: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    align-self: center;
+  }
