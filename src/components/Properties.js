@@ -4,7 +4,7 @@ import axios from "axios";
 import PropertyCard from "./PropertyCard";
 import Alert from "./Alert";
 import "../styles/properties.css";
-import SideBar from "../SideBar";
+import SideBar from "./SideBar";
 
 const Properties = () => {
   const [properties, setProperties] = useState([]);

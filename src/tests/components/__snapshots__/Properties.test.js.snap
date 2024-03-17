@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properties renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sidebar"
+  >
+    <form
+      class="sidebar-search"
+    >
+      <input
+        type="text"
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <h3
+      class="sidebar-heading"
+    >
+      Filter By City
+    </h3>
+    <ul
+      class="sidebar-links"
+    >
+      <li
+        class="sidebar-links-item"
+      >
+        <a
+          href="/?query={\\"city\\":\\"Manchester\\"}"
+        >
+          Manchester
+        </a>
+      </li>
+      <li
+        class="sidebar-links-item"
+      >
+        <a
+          href="/?query={\\"city\\":\\"Leeds\\"}"
+        >
+          Leeds
+        </a>
+      </li>
+      <li
+        class="sidebar-links-item"
+      >
+        <a
+          href="/?query={\\"city\\":\\"Oxford\\"}"
+        >
+          Oxford
+        </a>
+      </li>
+      <li
+        class="sidebar-links-item"
+      >
+        <a
+          href="/?query={\\"city\\":\\"Birmingham\\"}"
+        >
+          Birmingham
+        </a>
+      </li>
+      <li
+        class="sidebar-links-item clear-filter"
+      >
+        <a
+          href="/"
+        >
+          Clear Filter
+        </a>
+      </li>
+    </ul>
+    <h3
+      class="sidebar-heading"
+    >
+      Sort By
+    </h3>
+    <ul
+      class="sidebar-links"
+    >
+      <li
+        class="sidebar-links-item"
+      >
+        <a
+          href="/?sort={\\"price\\":1}"
+        >
+          Price Ascending
+        </a>
+      </li>
+      <li
+        class="sidebar-links-item"
+      >
+        <a
+          href="/?sort={\\"price\\":-1}"
+        >
+          Price Descending
+        </a>
+      </li>
+      <li
+        class="sidebar-links-item clear-filter"
+      >
+        <a
+          href="/"
+        >
+          Clear Sort
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="property-page-heading"
+  >
+    Properties Page
+  </div>
+  <div
+    class="property-cards-container"
+  />
+</DocumentFragment>
+`;

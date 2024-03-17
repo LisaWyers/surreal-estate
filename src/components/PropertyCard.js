@@ -1,7 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBed, faBathtub } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import "../styles/property-card.css";
 
 const PropertyCard = ({
@@ -19,15 +16,12 @@ const PropertyCard = ({
       <p className="property-card-type-location">
         {type} - {city}
       </p>
-      <p className="property-card-bedrooms" data-testid="property-bedrooms">
-        <FontAwesomeIcon icon={faBed} /> {bedrooms}
+      <p className="property-card-bedrooms" data-testid="property-bedrooms"> {bedrooms}
       </p>
-      <p className="property-card-bathrooms" data-testid="property-bathrooms">
-        <FontAwesomeIcon icon={faBathtub} /> {bathrooms}
+      <p className="property-card-bathrooms" data-testid="property-bathrooms"> {bathrooms}
       </p>
       <p className="property-card-price">£{price}</p>
-      <a href={`mailto:${email}`} className="property-card-email">
-        <FontAwesomeIcon icon={faEnvelope} /> Email
+      <a href={`mailto:${email}`} className="property-card-email"> Email
       </a>
     </div>
   );
